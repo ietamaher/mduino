@@ -1,0 +1,10 @@
+# modbus_config.yaml
+
+mduino_modbus_node:
+  ros__parameters:
+    method: "rtu"  # Use the RTU (Remote Terminal Unit) method
+    port: "/dev/pts/2"  # Specify the serial port (adjust this based on your setup)
+    baudrate: 115200  # Specify the baud rate
+    timeout: 1  # Specify the timeout
+    stopbits: 1  # Specify the number of stop bits
+    parity: "N"  # Specify the parity (N for None, E for Even, O for Odd)
